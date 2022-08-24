@@ -1,0 +1,34 @@
+* {
+    margin:0; 
+    padding:0;
+}
+
+header {
+    background: white;
+    box-shadow: 0px 2px 10px gray;
+}
+
+header .texto-inicial {
+    display: inline;
+    font-family: 'Ropa Sans';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    color: #777777;
+    
+}
+
+header #msg-texto-inicial {
+    font-family: 'Ropa Sans';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    color: #AAAAAA;
+}
+
+section.img-fundo {
+    background-image: url("../img/img-principal.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat ;    
+}
