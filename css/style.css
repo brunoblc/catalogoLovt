@@ -22,7 +22,7 @@ header .lovt-text {
 }
 
 header .lovt-barra {
-    margin: 0.5% 0% 0.5% 80% 
+    margin: 0.5% 0% 0.5% 80%
 }
 
 
@@ -112,14 +112,16 @@ div.retang-classic {
 }
 
 section.retang .retang-font-yourstyle {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    ;
     font-size: 30px;
     color: #8b7f7f;
     text-align: center;
 }
 
 section.retang .retang-font {
-    font-family: 'Roboto', sans-serif;;   
+    font-family: 'Roboto', sans-serif;
+    ;
     font-size: 30px;
     color: #d8d2d2;
     text-shadow: 2px 2px rgb(2, 2, 2);
@@ -147,7 +149,7 @@ footer {
     margin: 1% 0% 1% 70%;
 }
 
-.img-footer .img-social{
+.img-footer .img-social {
     display: inline-block;
     padding: 1%;
 }
