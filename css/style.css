@@ -26,9 +26,46 @@ header #msg-texto-inicial {
     color: #AAAAAA;
 }
 
-section.img-fundo {
-    background-image: url("../img/img-principal.png");
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat ;    
+section.container {
+    margin: 20px 350px 20px 300px;
+    display: table;
 }
+
+.imagem1 {
+    width: 740px;
+}
+
+.div-img-central {
+    width: 270px;
+    display: table;
+    float: left;
+    margin: 20px 20px 20px 80px;
+    background-color: #ece3e3;
+    
+
+}
+.img-central {
+    width: 100%;
+    display: table;
+}
+
+.div-img-central .img-central {
+    width: 150%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2px auto;
+    
+}
+
+/* .div-inf .inf-img {
+    font-size: 10px;
+    color: #363636;
+    position: relative;
+    left: 650px;
+}
+
+.div-inf .fundo-inf {
+    position: absolute ;
+    left: 650px;
+} */
