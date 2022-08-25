@@ -1,6 +1,6 @@
 * {
-    margin:0; 
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -12,60 +12,142 @@ header .texto-inicial {
     display: inline;
     font-family: 'Ropa Sans';
     font-weight: 400;
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 40px;
     color: #777777;
-    
+    margin: 1% 1% 1% 5%;
 }
 
-header #msg-texto-inicial {
-    font-family: 'Ropa Sans';
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 11px;
-    color: #AAAAAA;
+header .lovt-text {
+    width: 3%;
 }
+
+header .lovt-barra {
+    margin: 0.5% 0% 0.5% 80% 
+}
+
 
 section.container {
-    margin: 20px 350px 20px 300px;
+    margin: 2% 25% 2% 25%;
     display: table;
 }
 
 .imagem1 {
-    width: 740px;
+    width: 130%;
 }
 
-.div-img-central {
-    width: 270px;
-    display: table;
-    float: left;
-    margin: 20px 20px 20px 80px;
-    background-color: #ece3e3;
-    
-
+.div-img-central1 {
+    width: 25%;
+    display: inline-block;
+    margin: 2% 0% 2% 25%;
 }
+
+.div-img-central2 {
+    width: 25%;
+    display: inline-block;
+    margin: 2% 2% 2% 5%;
+}
+
 .img-central {
-    width: 100%;
+    width: 80%;
     display: table;
 }
 
-.div-img-central .img-central {
-    width: 150%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 2px auto;
-    
+.imagens-centrais .div-img-central1 {
+    color: #AAAAAA;
 }
 
-/* .div-inf .inf-img {
-    font-size: 10px;
-    color: #363636;
-    position: relative;
-    left: 650px;
+.imagens-centrais .div-img-central1 .img-infs {
+    background-color: #ece3e3;
+    width: 80%;
+    align-items: right;
 }
 
-.div-inf .fundo-inf {
-    position: absolute ;
-    left: 650px;
-} */
+.imagens-centrais .div-img-central2 .img-infs {
+    background-color: #ece3e3;
+    width: 80%;
+}
+
+.imagens-centrais .div-img-central1 .text-img {
+    font-family: 'Ropa Sans';
+    font-size: 14px;
+    color: #AAAAAA;
+    background-color: #ece3e3;
+    width: 80%;
+}
+
+.imagens-centrais .div-img-central2 .text-img {
+    font-family: 'Ropa Sans';
+    font-size: 14px;
+    color: #AAAAAA;
+    background-color: #ece3e3;
+    width: 80%;
+}
+
+div.retang-yourstyle {
+    background: rgb(253, 252, 252);
+    padding: 2%;
+    width: 46.5%;
+    margin: 2% 2% 2% 25%;
+}
+
+div.retang-industrial {
+    background-image: url(../img/industrial.png);
+    padding: 2%;
+    width: 46.5%;
+    margin: 2% 2% 2% 25%;
+}
+
+div.retang-modern {
+    background-image: url(../img/modern.png);
+    padding: 2%;
+    width: 46.5%;
+    margin: 2% 2% 2% 25%;
+}
+
+div.retang-classic {
+    background-image: url(../img/classica.png);
+    padding: 2%;
+    width: 46.5%;
+    margin: 2% 2% 2% 25%;
+}
+
+section.retang .retang-font-yourstyle {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 30px;
+    color: #8b7f7f;
+    text-align: center;
+}
+
+section.retang .retang-font {
+    font-family: 'Roboto', sans-serif;;   
+    font-size: 30px;
+    color: #d8d2d2;
+    text-shadow: 2px 2px rgb(2, 2, 2);
+    text-align: center;
+}
+
+footer {
+    padding: 5%;
+    background-color: #363535;
+    margin: 10% 1% 2% 1%;
+}
+
+.google-maps {
+    width: 30%;
+}
+
+.text-footer {
+    display: inline-block;
+    margin: 1% 0% 0% 40%;
+    color: white;
+}
+
+.img-footer {
+    display: inline;
+    margin: 1% 0% 1% 70%;
+}
+
+.img-footer .img-social{
+    display: inline-block;
+    padding: 1%;
+}
